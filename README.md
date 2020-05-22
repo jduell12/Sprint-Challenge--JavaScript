@@ -48,7 +48,7 @@ Edit this document to include your answers after each question. Make sure to lea
     4. new binding<br />
         uses the new keyword to construct a new object and 'this' points to the new object that's created <br />
 
-5. Why do we need super() in an extended class?
+5. Why do we need super() in an extended class?<br />
     to pass any new attributes of the child back up to the constructor of the parent object <br />
 
 ### Task 1 - Project Set up
