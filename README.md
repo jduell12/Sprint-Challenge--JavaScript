@@ -24,7 +24,7 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
-1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max) <br />
     .forEach iterates through the whole loop and doesn't automatically return a new array, the return statement is optional.
     .map returns a new array and passes each item to the callback function and does not manipulate the original array and needs a return statemetn.
 
