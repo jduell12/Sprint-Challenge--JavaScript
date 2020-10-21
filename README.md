@@ -1,4 +1,4 @@
-# Sprint Challenge: JavaScript Fundamentals
+# Sprint Challenge: JavaScript Fundamentals  
 
 This challenge allows you to practice the concepts and techniques learned over the past week and apply them in a survey of problems. This Sprint explored JavaScript Fundamentals. During this Sprint, you studied array methods, this keyword, prototypes, and class syntax. In your challenge this week, you will demonstrate proficiency by completing a survey of JavaScript problems.
 
@@ -24,15 +24,32 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
-1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max) <br />
+    <br />
+    .forEach iterates through the whole loop and doesn't automatically return a new array, the return statement is optional.
+    .map returns a new array and passes each item to the callback function and does not manipulate the original array and needs a return statemetn.
 
-2. Explain the difference between a callback and a higher order function.
+2. Explain the difference between a callback and a higher order function. <br />
+    <br />
+    A callback is a function that is passed to another function as an argument. A higher order function is a function that received a callback as a parameter.
 
-3. What is closure?
+3. What is closure?<br />
+    <br />
+    Where an inner function has access to the outer functions variables. Allows us to nest functions within each other 
 
-4. Describe the four rules of the 'this' keyword.
+4. Describe the four rules of the 'this' keyword. <br />
+    <br />
+    1. window binding<br />
+        if no other rule applies 'this' applies to the global object or window unless strict mode is being used <br />
+    2. implicit binding<br />
+        when the function is invoked 'this' refers to the object left of the dot <br />
+    3. explicit binding<br />
+        uses .call, .apply or .bind 'this' refers to the object that is passed as the argument <br />
+    4. new binding<br />
+        uses the new keyword to construct a new object and 'this' points to the new object that's created <br />
 
-5. Why do we need super() in an extended class?
+5. Why do we need super() in an extended class?<br />
+    to pass any new attributes of the child back up to the constructor of the parent object <br />
 
 ### Task 1 - Project Set up
 
